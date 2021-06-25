@@ -1,6 +1,8 @@
 # Инстаграм клон
 
-frontend - ReactJs
+### frontend
+ReactJs
+### backend
 Для загрузки и хранения данных используется firebase
 
 
