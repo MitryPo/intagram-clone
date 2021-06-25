@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Инстаграм клон
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+frontend - ReactJs
+Для загрузки и хранения данных используется firebase
+
 
 ## Available Scripts
 
