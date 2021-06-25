@@ -1,0 +1,47 @@
+.upload {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    max-width: 320px;
+    margin-bottom: 12px;
+}
+
+.upload__label {
+    font-size: 10px;
+    color: gray;
+}
+
+.upload__input {
+    border: 1px solid lightgrey;
+    -webkit-appearance: none;
+    padding: 10px 0 10px 8px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    width: 100%;
+    max-width: 260px;
+}
+.upload__input:focus {
+    outline: none;
+}
+
+.upload__progress {
+    width: 100%;
+    max-width: 270px;
+}
+
+.upload__button {
+    cursor: pointer;
+    outline: none;
+    border: 1px dashed lightgrey;
+    border-radius: 3px;
+    padding: 0.5rem 0.6rem;
+    width: 270px;
+}
+
+/* .upload__file {
+    display: none;
+} */

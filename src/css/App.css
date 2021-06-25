@@ -1,0 +1,80 @@
+@import url('http://fonts.cdnfonts.com/css/billabong');
+
+* {
+    margin: 0;
+}
+
+
+.app {
+    background-color: #fafafa;
+    height: 100vh;
+}
+
+.app__header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Billabong', sans-serif;
+    background-color: white;
+    padding: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.btn {
+    cursor: pointer;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    font-weight: 700;
+    padding: 0.5rem 0.6rem;
+    background-color: #0095F6;
+  }
+
+.btn:focus {
+    background-color:lightskyblue;
+}
+
+.my-10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.block {
+    width: 100%;
+    max-width: 270px;
+}
+
+.link {
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-left: 5px;
+    color: #0095F6;
+    text-decoration: none;
+}
+
+.avatar {
+    margin-right: 10px;
+    border-radius: 50%;
+    height: 32px;
+    width: 32px;
+    background-color:lightgrey;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    align-items: center;
+}
+
+.error {
+    text-align: start;
+    font-size: 10px;
+    color: red;
+    margin: 0 0 10px 25px;
+}

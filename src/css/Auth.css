@@ -1,0 +1,50 @@
+@import url('http://fonts.cdnfonts.com/css/billabong');
+
+
+.login__logo {
+    font-family: 'Billabong', sans-serif;
+    font-size: 55px;
+    margin-bottom: 22px;
+    padding: 10px 0;
+}
+
+.login__form {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    text-align: center;
+    border-radius: 3px;
+    max-width: 320px;
+    margin-bottom: 12px;
+}
+
+.login__input {
+    border: 1px solid lightgrey;
+    -webkit-appearance: none;
+    padding: 10px 0 10px 8px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-size: 12px;
+    width: 100%;
+    max-width: 260px;
+}
+.login__input:focus {
+    outline: none;
+}
+
+
+.login__signup {
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+    width: 320px;
+}
+
+
+.login__forgot {
+    font-size: 12px;
+    cursor: pointer;
+    color: #00376B;
+}
